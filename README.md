@@ -1,6 +1,8 @@
 # i18next-react-mdx
 i18next processor for rendering React.js with mdx
 
+**Note: This is an alpha release and the API may be unstable.**
+
 ## Getting Started
 
 Make sure `i18next` and `react-i18next` are installed.
