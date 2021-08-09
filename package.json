@@ -27,7 +27,7 @@
   "dependencies": {
     "@mdx-js/runtime": "^1.6.22"
   },
-  "optionalDependencies": {
-    "react": ">=16"
+  "peerDependencies": {
+    "react": ">=16 || >=17"
   }
 }
