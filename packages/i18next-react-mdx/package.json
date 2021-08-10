@@ -1,0 +1,33 @@
+{
+  "name": "i18next-react-mdx",
+  "version": "0.0.4",
+  "description": "i18next processor for rendering React.js with mdx",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:types": "tsc -d -p tsconfig.json",
+    "build:js": "tsc -p tsconfig.json",
+    "build": "npm run clean && npm run build:js",
+    "clean": "rm -rf lib/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elemental-design/i18next-react-mdx.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elemental-design/i18next-react-mdx/issues"
+  },
+  "homepage": "https://github.com/elemental-design/i18next-react-mdx#readme",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@mdx-js/runtime": "^1.6.22"
+  },
+  "peerDependencies": {
+    "react": ">=16 || >=17"
+  }
+}
